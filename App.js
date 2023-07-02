@@ -1,18 +1,11 @@
-import React from "react";
-import { NativeBaseProvider, TextArea, Checkbox, Heading} from "native-base";
+import React from 'react';
+import {Text, View} from 'react-native';
 
-export default function App() {
-  return (
-    <NativeBaseProvider>
-      <TextArea placeholder="Text Area Placeholder"/>
-      
-      <Checkbox  value="checkbox">
-        Hi
-      </Checkbox>
-      
-      <Heading >Heading Text</Heading>
-      
 
-    </NativeBaseProvider>
-  );
+export default function App(){
+	return(
+		<View>
+			<Text>Test</Text>
+		</View>
+	);
 }
